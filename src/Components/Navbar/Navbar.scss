@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  user-select: none;
+  margin: 1rem 2rem;
+  &__left {
+    a {
+      outline: none;
+    }
+  }
+
+  &__right {
+    width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    a {
+      outline: none;
+    }
+  }
+}

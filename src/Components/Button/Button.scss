@@ -1,0 +1,17 @@
+button {
+  padding: 10px;
+  border-style: none;
+  background-color: #ffff;
+  color: #000;
+  border: 1px solid black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  &:hover {
+    background-color: #000;
+    color: #ffff;
+    a {
+      color: #fff;
+    }
+  }
+}

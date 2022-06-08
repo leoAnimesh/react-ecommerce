@@ -1,0 +1,17 @@
+.PreviewCollection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  
+    .title {
+      font-size: 28px;
+      margin: 1rem 0;
+      cursor: pointer;
+    }
+  
+    .preview {
+      display: flex;
+      justify-content: space-between;
+      gap: 25px;
+    }
+  }
